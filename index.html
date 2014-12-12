@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pan-Tilt controller</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<!-- jQuery UI -->
+<link rel="stylesheet" href="js/jquery/jquery-ui.min.css" />
+<script src="js/jquery/jquery-1.11.0.min.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/jquery/jquery.ui.touch-punch.min.js"></script>
+<!-- PanTilt -->
+<link rel="stylesheet" href="css/pantilt.css" />
+<script src="js/socket.io.js"></script>
+<script src="js/pantilt.js"></script>
+</head>
+
+<body id="body" onload="init()">
+
+<div align="center">
+    <div id="box">
+        <canvas id="canvas"></canvas>
+        <span id="slider1"></span>
+    </div>
+    <div id="slider2"></div>
+</div>
+
+</body>
+</html>

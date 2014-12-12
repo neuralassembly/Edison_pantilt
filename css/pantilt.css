@@ -1,0 +1,19 @@
+#body{
+  background-color:#cccccc; 
+  padding: 0px;
+  margin: 0px;
+  -webkit-user-select:none;
+}
+
+#canvas { 
+  background-color:#ddffdd; 
+}
+
+#slider1 {
+  display: inline-block;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 30px;
+    height: 30px;
+}
