@@ -2,14 +2,14 @@ import mraa
 import time
 import subprocess
 
-switch = mraa.Gpio(15)
-switch.dir(mraa.DIR_IN)
-switch.mode(mraa.MODE_PULLUP)
+sw = mraa.Gpio(15)
+sw.dir(mraa.DIR_IN)
+sw.mode(mraa.MODE_PULLUP)
 
 state = 0
 
 while True:
-    if switch.read() == 0:
+    if sw.read() == 0:
         if state == 2:
             state = 0
             args = ['poweroff']
